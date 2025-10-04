@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		422584822E91E1AF00BE6557 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 422584812E91E1AF00BE6557 /* RealityKitContent */; };
+		422584A62E91E4B600BE6557 /* GLTFKit2 in Frameworks */ = {isa = PBXBuildFile; productRef = 422584A52E91E4B600BE6557 /* GLTFKit2 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4225847C2E91E1AF00BE6557 /* glTFStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glTFStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		422584802E91E1AF00BE6557 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -41,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				422584822E91E1AF00BE6557 /* RealityKitContent in Frameworks */,
+				422584A62E91E4B600BE6557 /* GLTFKit2 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				4225847E2E91E1AF00BE6557 /* glTFStarter */,
-				4225847F2E91E1AF00BE6557 /* Packages */,
 				4225847D2E91E1AF00BE6557 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,14 +61,6 @@
 				4225847C2E91E1AF00BE6557 /* glTFStarter.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4225847F2E91E1AF00BE6557 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				422584802E91E1AF00BE6557 /* RealityKitContent */,
-			);
-			path = Packages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,7 +83,7 @@
 			);
 			name = glTFStarter;
 			packageProductDependencies = (
-				422584812E91E1AF00BE6557 /* RealityKitContent */,
+				422584A52E91E4B600BE6557 /* GLTFKit2 */,
 			);
 			productName = glTFStarter;
 			productReference = 4225847C2E91E1AF00BE6557 /* glTFStarter.app */;
@@ -123,6 +113,9 @@
 			);
 			mainGroup = 422584732E91E1AF00BE6557;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				422584A42E91E4B600BE6557 /* XCRemoteSwiftPackageReference "GLTFKit2" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 4225847D2E91E1AF00BE6557 /* Products */;
 			projectDirPath = "";
@@ -356,10 +349,22 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		422584A42E91E4B600BE6557 /* XCRemoteSwiftPackageReference "GLTFKit2" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/warrenm/GLTFKit2";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.14;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		422584812E91E1AF00BE6557 /* RealityKitContent */ = {
+		422584A52E91E4B600BE6557 /* GLTFKit2 */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = RealityKitContent;
+			package = 422584A42E91E4B600BE6557 /* XCRemoteSwiftPackageReference "GLTFKit2" */;
+			productName = GLTFKit2;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

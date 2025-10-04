@@ -7,7 +7,7 @@
 
 import SwiftUI
 import RealityKit
-import RealityKitContent
+import GLTFKit2
 
 struct ContentView: View {
 
@@ -16,7 +16,9 @@ struct ContentView: View {
     var body: some View {
         RealityView { content in
             // Add the initial RealityKit content
-            if let scene = try? await Entity(named: "Scene", in: realityKitContentBundle) {
+            let urlResource = URLResource(name: "ShinySphere.glb")
+            if let url = URL(resource: urlResource),
+               let scene = try? await GLTFRealityKitLoader.load(from: url) {
                 content.add(scene)
             }
         } update: { content in
