@@ -83,7 +83,6 @@
 			);
 			name = glTFStarter;
 			packageProductDependencies = (
-				422584812E91E1AF00BE6557 /* RealityKitContent */,
 				422584A52E91E4B600BE6557 /* GLTFKit2 */,
 			);
 			productName = glTFStarter;
@@ -362,10 +361,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		422584812E91E1AF00BE6557 /* RealityKitContent */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = RealityKitContent;
-		};
 		422584A52E91E4B600BE6557 /* GLTFKit2 */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 422584A42E91E4B600BE6557 /* XCRemoteSwiftPackageReference "GLTFKit2" */;
