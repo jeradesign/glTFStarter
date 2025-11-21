@@ -11,6 +11,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		421E97B42ECFE4AE002FEF51 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		421E97B52ECFE545002FEF51 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		4225847C2E91E1AF00BE6557 /* glTFStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glTFStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -50,6 +52,8 @@
 		422584732E91E1AF00BE6557 = {
 			isa = PBXGroup;
 			children = (
+				421E97B52ECFE545002FEF51 /* LICENSE.txt */,
+				421E97B42ECFE4AE002FEF51 /* README.md */,
 				4225847E2E91E1AF00BE6557 /* glTFStarter */,
 				4225847D2E91E1AF00BE6557 /* Products */,
 			);
